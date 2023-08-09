@@ -1,0 +1,9 @@
+Package: com.fortysixandtwo.weatherbadge
+Name: WeatherBadge
+Depends: mobilesubstrate
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Show current weather temperature as a badge on the Weather icon!
+Maintainer: magn2o
+Author: magn2o
+Section: Tweaks

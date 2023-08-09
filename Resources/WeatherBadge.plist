@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please disable WeatherBadge before uninstalling. Failure to do so will result in the badge remaining visible.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>id</key>
+			<string>isEnabled</string>
+			<key>defaults</key>
+			<string>com.fortysixandtwo.weatherbadge</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.fortysixandtwo.weatherbadge/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Author</string>
+			<key>footerText</key>
+			<string>© 2014 fortysixandtwo, ltd.</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@magn2o</string>
+			<key>action</key>
+			<string>launchTwitter:</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WeatherBadge</string>
+</dict>
+</plist>
